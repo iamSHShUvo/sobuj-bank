@@ -15,6 +15,6 @@ document.getElementById('login-submit').addEventListener('click', function () {
     if (userEmail == 'abcd@def.com' && userPassword == 'abcd') {
         window.location.href = 'banking.html';
     }
-})
+});
 
 //handle deposit and withdraw button event handler
